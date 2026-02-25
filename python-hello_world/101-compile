@@ -1,2 +1,10 @@
 #!/bin/bash
-python3 -c "import py_compile; py_compile.compile('$PYFILE', '$PYFILEc')"
+python3 -m py_compile $PYFILE > /dev/null 2>&1
+if [ $? -ne 0 ]; then
+    exit 1
+fi
+mv __pycache__/*.pyc ./$PYFILEc 2>/dev/null
+if [ $? -ne 0 ]; then
+    exit 1
+fi
+exit 0
