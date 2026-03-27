@@ -2,6 +2,7 @@
 """ empty class function that defines a Rectangle
 """
 
+
 class Rectangle:
     """
     # Write an empty class Rectangle that defines a rectangle:
@@ -14,5 +15,5 @@ class Rectangle:
     for creating objects...
     while the 'pass' is used as a placeholder when you don't want to add...
     any code in a block and this is just a sample of a 2D Polygon with a ...
-    ...4-Perpendicular Sides."""
+    ...5-Perpendicular Sides."""
     pass
