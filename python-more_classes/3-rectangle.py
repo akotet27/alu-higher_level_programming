@@ -2,6 +2,7 @@
 """ calculates and return the area of the rectangle
 """
 
+
 class Rectangle:
     """
     # Write a class Rectangle that defines a rectangle by:
