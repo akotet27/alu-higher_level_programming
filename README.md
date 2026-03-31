@@ -1,2 +1,1 @@
-# alu-higher_level_programming
-This is my first repository as a python programmer
+This is the script for Python - Input/Output
